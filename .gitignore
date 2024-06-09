@@ -1,0 +1,7 @@
+node_modules
+.env
+dist
+yarn.lock
+.vscode
+.idea
+src/configs/real/*

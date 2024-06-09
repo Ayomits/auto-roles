@@ -1,0 +1,27 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "decorators": true,
+      "dynamicImport": true
+    },
+    "target": "es2021",
+    "keepClassNames": true,
+    "loose": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@models/*": ["models/*"],
+      "@kafka/*": ["kafka/*"],
+      "@configs/*": ["configs/*"],
+      "@common/*": ["common/*"],
+      "@decorators/*": ["common/decorators/*"],
+      "@functions/*": ["common/functions/*"],
+      "@structures/*": ["common/structure/*"],
+      "@constants": ["constants.ts"]
+    }
+  },
+  "module": {
+    "type": "commonjs"
+  },
+  "sourceMaps": true
+}
